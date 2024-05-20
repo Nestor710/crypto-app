@@ -1,6 +1,8 @@
 # Project info
 
-This is a project to test different API's coming from Rapid API
+This is a project to test different crypto API's coming from Rapid API
+
+<image src="public/images/project.png" alt="Descripción de la imagen">
 
 # Getting Started with Create React App
 
