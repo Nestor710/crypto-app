@@ -2,7 +2,7 @@
 
 This is a project to test different crypto API's coming from Rapid API
 
-<image src="public/images/project.png" alt="Descripción de la imagen">
+<image src="public/images/project.png" alt="Project Image" />
 
 # Getting Started with Create React App
 
