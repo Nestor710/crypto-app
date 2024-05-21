@@ -14,7 +14,7 @@ const { Option } = Select
 const CryptoDetails = () => {
   const { coinId } = useParams()
   const [timePeriod, setTimePeriod] = useState('7d');
-  const { data, isFetching, isLoading } = useGetSCryptoDetailsQuery(coinId)
+  const { data, isLoading } = useGetSCryptoDetailsQuery(coinId)
   const { data: coinHistory } = useGetSCryptoHistoryQuery({coinId, timePeriod})
   if (isLoading) return <Loader />;
   const cryptoDetails = data?.data.coin

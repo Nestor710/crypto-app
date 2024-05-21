@@ -1,12 +1,11 @@
-import { Col, Collapse, CollapseProps, Row, Typography } from "antd";
+import { Col, Collapse, Row, Typography } from "antd";
 import { useGetCurrenciesReferencesQuery } from "../services/cryptoApi"
 
-const { Panel } = Collapse
 const { Text } = Typography
 
 const CurrencyRef = () => {
 
-  const {data: currenciesData, isLoading} = useGetCurrenciesReferencesQuery()
+  const {data: currenciesData} = useGetCurrenciesReferencesQuery()
 
   const items = currenciesData?.data.currencies.map(currency => ({
     name: currency.name,
